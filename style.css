@@ -1,4 +1,38 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color : black;
+    font-family:arial;
+  }
+  
+  h1{
+    color : grey;
+    font-family:verdana;
+    margin-bottom: 5%;
+  }
+  
+  .maindiv{
+      background-color: white;
+      width:max-content;
+      border-radius: 25px;
+      padding: 15px 50px;
+      margin: auto;
+  }
+  
+  .innerdiv{
+      padding: 0% 15%;
+      line-height: 35px;
+      font-size: small;
+    }
 
+  .innerdiv #rate{
+    vertical-align: middle;
+  }
 
+  .innerdiv #compute{
+    margin-top: 7px;
+    margin-bottom: 15px;
+    padding: 0px 6px;
+  }
+
+  .innerdiv #result{
+    line-height: 23.5px;
+  }
