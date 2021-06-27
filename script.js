@@ -21,7 +21,7 @@ function display(p, n, r, si){
     var year = new Date().getFullYear() + parseInt(n);
 
     var div = document.getElementById("result");
-    div.innerHTML = "If you desposit <mark>"+ p +"</mark>,<br>" 
+    div.innerHTML = "If you deposit <mark>"+ p +"</mark>,<br>" 
                     + "at an interest rate of <mark>" + r + "%</mark>.<br>"
                     + "You will receive an amount of <mark>" + si +"</mark>,<br>"
                     + "in the year <mark>" + year +"</mark>";
